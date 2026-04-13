@@ -257,7 +257,7 @@ CREATE TABLE notifications (
 
 -- Insert default admin
 INSERT INTO admins (full_name, email, password_hash) VALUES
-('System Admin', 'admin@ojasya.com', '$2b$10$rX8p8UxHl9p.q1n8DdZZs.VqT5gP3mYLkJ8hN6kO7R2mHjWsxeQdu');
+('System Admin', 'admin@ojasya.com', '$2a$10$uvG8QYZRULfkHotLIGgVH.XnqdGGsYCMh/BRK5gBzrGN9j8pyKMjS');
 -- Default password: Admin@123
 
 -- Insert sample nutritional conditions
