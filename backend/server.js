@@ -2,7 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const app = express();
-
+app.get("/", (req, res) => {
+  res.send("🚀 Ojasya Healthcare Backend is Running");
+});
 app.use(cors({
   origin: process.env.FRONTEND_URL || 'http://localhost:3000',
   credentials: true
